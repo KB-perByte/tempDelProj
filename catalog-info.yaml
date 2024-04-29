@@ -1,0 +1,21 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: collection.col
+  description: This is a dummy col proj
+  tags:
+    - ansible
+    - collection
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: KB-perByte/tempDelProj
+  links:
+    - url: https://devspaces.apps.ansible-rhdh.testing.ansible.com/#https://github.com/KB-perByte/tempDelProj
+      title: Open in Ansible development workspaces
+      icon: web
+spec:
+  type: playbook-project
+  system: system:default/audio-playback
+  lifecycle: production
+  owner: user:default/breanna.davison
